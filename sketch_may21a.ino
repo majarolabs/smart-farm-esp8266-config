@@ -2,13 +2,13 @@
 #include <WiFiClientSecure.h>
 #include <PubSubClient.h>
 
-const char* ssid = "Yogaone";
-const char* password = "yogawan123";
+const char* ssid = "redmi";
+const char* password = "abcdefgh";
 
 const char* mqtt_server = "2df92edc4fe74558a88f779cb914ac77.s1.eu.hivemq.cloud";
 const int mqtt_port = 8883;
-const char* mqtt_user = "yogawan";
-const char* mqtt_password = "Yog@pr4t4m4";
+const char* mqtt_user = "banjir";
+const char* mqtt_password = "Classmild1";
 
 #define TRIG_PIN 14
 #define ECHO_PIN 12
