@@ -1,0 +1,96 @@
+# --- Sistem OS ---
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.nfs*
+
+# --- Node.js / JavaScript ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg-info/
+.env
+.venv/
+venv/
+
+# --- Java ---
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.ipr
+*.iws
+target/
+out/
+
+# --- C / C++ ---
+*.o
+*.obj
+*.so
+*.exe
+*.dll
+*.dylib
+
+# --- Go ---
+bin/
+*.test
+
+# --- Rust ---
+target/
+
+# --- PHP ---
+vendor/
+
+# --- Logs & Temp ---
+*.log
+*.tmp
+*.swp
+*.swo
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# --- Build / Dist ---
+dist/
+build/
+coverage/
+
+# --- Environment & Secrets ---
+.env
+.env.*
+*.pem
+*.key
+*.crt
+
+# --- Misc ---
+*.bak
+*.old
+*.orig
+*.lock
